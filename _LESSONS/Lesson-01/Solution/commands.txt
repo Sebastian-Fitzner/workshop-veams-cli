@@ -1,0 +1,2 @@
+veams -v
+veams help

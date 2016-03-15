@@ -1,0 +1,20 @@
+{{! ---
+component: c-custom
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- customContextClass {String} [default] - Just pass a string
+- customClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="c-custom{{#if customContextClass}}--{{customContextClass}}{{else}}--default{{/if}}{{#if customClasses}} {{customClasses}}{{/if}}"
+     data-css="c-custom">
+     
+</div>

@@ -1,0 +1,20 @@
+{{! ---
+component: c-image
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- imageContextClass {String} [default] - Just pass a string
+- imageClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="c-image{{#if imageContextClass}}--{{imageContextClass}}{{else}}--default{{/if}}{{#if imageClasses}} {{imageClasses}}{{/if}}"
+     data-css="c-image">
+     
+</div>

@@ -1,0 +1,10 @@
+{
+	"testComponentContextClass": "default",
+	"testComponentClasses": false ,
+	"testComponentJsOptions": [
+		{
+			"optionsKey": "",
+			"optionsValue": ""
+		}
+	]
+}

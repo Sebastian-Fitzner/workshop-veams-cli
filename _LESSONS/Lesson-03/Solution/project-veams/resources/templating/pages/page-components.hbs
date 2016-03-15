@@ -1,0 +1,43 @@
+---
+title: Build Better Prototypes with Veams
+menuLink: Components
+sortOrder: 02
+---
+
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+		<h3>Place your components here!</h3>
+
+
+{{#with table-bp.tableWithHead}}
+	{{> c-table}}
+{{/with}}
+
+{{#with table-bp.tableHeadLeft}}
+	{{> c-table}}
+{{/with}}
+
+{{#with table-bp.tableWithoutHead}}
+	{{> c-table}}
+{{/with}}
+
+
+{{#with yt-video-bp}}
+	{{> c-yt-video}}
+{{/with}}
+
+
+{{#with picture-bp}}
+	{{> c-picture}}
+{{/with}}
+
+
+{{#with tester-bp}}
+	{{#wrapWith "c-tester"}}
+		Wrapped with markup from tester.
+	{{/wrapWith}}
+{{/with}}
+
+		{{! @INSERTPOINT :: @ref: component-partial }}
+	{{/content}}
+{{/extend}}

@@ -1,0 +1,20 @@
+{{! ---
+component: c-teaser
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- teaserContextClass {String} [default] - Just pass a string
+- teaserClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="c-teaser{{#if teaserContextClass}}--{{teaserContextClass}}{{else}}--default{{/if}}{{#if teaserClasses}} {{teaserClasses}}{{/if}}"
+     data-css="c-teaser">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam beatae consectetur deleniti dignissimos doloremque inventore itaque iure magnam odio pariatur porro quidem quis recusandae sapiente, unde vero voluptatum.
+</div>

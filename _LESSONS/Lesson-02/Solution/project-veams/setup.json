@@ -1,0 +1,37 @@
+{
+  "generator-veams": {
+    "projectName": "project veams",
+    "projectAuthor": "sebbo",
+    "taskRunner": [
+      "grunt"
+    ],
+    "templateEngine": "assemble",
+    "installExtendedLayout": true,
+    "installPlugin": false,
+    "gulpModules": [],
+    "gruntModules": [
+      "grunt-autoprefixer",
+      "grunt-browser-sync",
+      "grunt-browserify",
+      "grunt-combine-mq",
+      "grunt-contrib-handlebars",
+      "grunt-dr-svg-sprites",
+      "grunt-version"
+    ],
+    "features": [
+      "createDevFolder"
+    ],
+    "jsLibs": [
+      "jquery",
+      "exoskeleton"
+    ],
+    "cssLibs": [],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": [
+      "veamsMethodology",
+      "veamsSCSS"
+    ],
+    "docs": []
+  }
+}

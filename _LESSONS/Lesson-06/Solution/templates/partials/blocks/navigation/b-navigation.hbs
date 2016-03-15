@@ -1,0 +1,22 @@
+{{! ---
+block: b-navigation
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- navigationClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="b-navigation{{#if navigationClasses}} {{navigationClasses}}{{/if}}"
+     data-js-module="navigation"
+     data-js-options='{
+     	{{#each navigationJsOptions}}"{{optionsKey}}": {{#unless optionsObject}}"{{/unless}}{{{optionsValue}}}{{#unless optionsObject}}"{{/unless}}{{#if @last}}{{else}}, {{/if}}{{/each}}
+     }'>
+     
+</div>

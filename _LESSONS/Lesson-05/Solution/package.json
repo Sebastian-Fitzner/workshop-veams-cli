@@ -1,0 +1,14 @@
+{
+	"name": "veams-project",
+	"version": "0.0.1",
+	"description": "test project",
+	"veams": {
+		"configFile": "./config.js"
+	},
+	"scripts": {
+		"test": "test"
+	},
+	"author": "",
+	"dependencies": {
+	}
+}

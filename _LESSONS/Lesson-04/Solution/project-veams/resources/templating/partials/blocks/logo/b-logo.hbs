@@ -1,0 +1,18 @@
+{{! ---
+block: b-logo
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- logoClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="b-logo{{#if logoClasses}} {{logoClasses}}{{/if}}">
+     my custom logo block
+</div>

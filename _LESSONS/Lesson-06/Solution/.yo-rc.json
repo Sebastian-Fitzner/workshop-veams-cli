@@ -1,0 +1,19 @@
+{
+  "generator-veams": {
+    "projectName": "",
+    "projectAuthor": "",
+    "taskRunner": [],
+    "templateEngine": "",
+    "installExtendedLayout": false,
+    "installPlugin": false,
+    "gulpModules": [],
+    "gruntModules": [],
+    "features": [],
+    "jsLibs": [],
+    "cssLibs": [],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": [],
+    "docs": []
+  }
+}

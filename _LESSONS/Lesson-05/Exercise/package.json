@@ -1,0 +1,11 @@
+{
+	"name": "veams-project",
+	"version": "0.0.1",
+	"description": "test project",
+	"scripts": {
+		"test": "test"
+	},
+	"author": "",
+	"dependencies": {
+	}
+}

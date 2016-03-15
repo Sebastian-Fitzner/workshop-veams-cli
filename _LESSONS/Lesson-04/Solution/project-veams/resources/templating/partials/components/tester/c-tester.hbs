@@ -1,0 +1,22 @@
+{{! ---
+component: c-tester
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- testerContextClass {String} [default] - Just pass a string
+- testerClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="c-tester{{#if testerContextClass}}--{{testerContextClass}}{{else}}--default{{/if}}{{#if testerClasses}} {{testerClasses}}{{/if}}"
+     data-css="c-tester">
+     
+     {{{yield}}}
+     
+</div>

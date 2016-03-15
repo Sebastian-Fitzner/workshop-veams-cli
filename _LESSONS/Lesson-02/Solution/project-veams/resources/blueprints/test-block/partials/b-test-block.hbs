@@ -1,0 +1,18 @@
+{{! ---
+block: b-test-block
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- testBlockClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="b-test-block{{#if testBlockClasses}} {{testBlockClasses}}{{/if}}">
+     
+</div>

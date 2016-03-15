@@ -1,0 +1,24 @@
+{{! ---
+component: c-test-component
+============================================
+
+Requirements:
+- (only hbs)
+
+Options:
+- testComponentContextClass {String} [default] - Just pass a string
+- testComponentClasses {String} - Modifier classes
+
+Important Notes:
+
+--- }}
+
+
+<div class="c-test-component{{#if testComponentContextClass}}--{{testComponentContextClass}}{{else}}--default{{/if}}{{#if testComponentClasses}} {{testComponentClasses}}{{/if}}"
+     data-css="c-test-component"
+     data-js-module="test-component"
+     data-js-options='{
+     	{{#each testComponentJsOptions}}"{{optionsKey}}": {{#unless optionsObject}}"{{/unless}}{{{optionsValue}}}{{#unless optionsObject}}"{{/unless}}{{#if @last}}{{else}}, {{/if}}{{/each}}
+     }'>
+     
+</div>
